@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #03186A;
+    --secondary-color: #0C50E3;
+    --text-color: #97BC9B;
+    --background-color: #003240;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #C1CBD6 0%,
+        #C1CBD6 50%,
+        #003240 50%,
+        #003240 100%
+    );
+}
