@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100..900&display=swap');
+:root {
+    --primary-color: #03186A;
+    --secondary-color: #0C50E3;
+    --text-color: #97BC9B;
+    --background-color: #003240;
+    --ff: "Roboto Slab", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: var(--ff);
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #C1CBD6 0%,
+        #C1CBD6 50%,
+        #003240 50%,
+        #003240 100%
+    );
+    
+}
+
+
+
+.login-container {
+    flex: 50%;
+    margin: 50px;
+}
+.login-container input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.login-container button {
+    width: 121px;
+    height: 32px;
+    margin-left: 15%;
+    border-radius: 4px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.welcome-container {
+    flex: 50%;
+}
+
