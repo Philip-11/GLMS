@@ -16,16 +16,15 @@ include "../includes/db.php";
     
 </head>
     <body>
-        <div class="container d-flex flex-wrap justify-content-around align-items-center">
+        <!-- Fix components into center -->
+        <!-- This is the main container -->
+        <div class="container d-flex justify-content-around align-items-center">
+            <!-- Left Container -->
             <div class="login-container">
                 <h1 style="font-family: 'Roboto Slab', sans-serif;">Login</h1>
-                <form action="" method="post">
-                    <input type="email" name="email" id="email" placeholder="Email Address" required> <br>
-                    <input type="password" name="password" id="password" placeholder="Password" required> <br>
-                    <button type="submit" style="font-family: 'Roboto Slab', sans-serif;">Login</button>
-                </form>
+                <?php include "../partials/login_form.php" ?>
             </div>
-
+            <!-- Right Container -->
             <div class="welcome-container ">
                 <img src="../assets/images/saintjohnboscologo-removebg.png" alt="School Logo">
                 <h1 style="color: #97BC9B; font-family:'Roboto Slab', sans-serif; text-align:center;">Welcome <br>to <br> Saint John Bosco</h1>
